@@ -6,14 +6,6 @@
  * See included LICENSE for full license information.
  */
 
-include(__DIR__.'/core/App.php');
-
-$app = new App('dummy');
-
-$app->run();
-
-//others $app->out;
-//	$app->error;
-//	$app->print... etc.
+$settings['mapsdir'] = __DIR__.'/maps';
 
 ?>
